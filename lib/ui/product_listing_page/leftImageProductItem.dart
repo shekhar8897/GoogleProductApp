@@ -13,7 +13,7 @@ class LeftImageProductItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(left: 32),
-      height:screenHeight*0.25,
+      height:screenHeight*0.3,
       color: product.backgroundColor,
       child: Row(
         children: <Widget>[

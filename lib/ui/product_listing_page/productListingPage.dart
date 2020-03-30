@@ -1,4 +1,5 @@
 
+import 'package:animation/ui/product_listing_page/redButton.dart';
 import 'package:animation/ui/product_listing_page/twoProductItem.dart';
 import 'package:flutter/material.dart';
 import 'package:animation/ui/product_listing_page/rightImageProductItem.dart';
@@ -35,7 +36,8 @@ class productListingPage extends StatelessWidget{
             TopBar(),
             RightImageProductItem(screenHeight:screenHeight,product: pixel),
             LeftImageProductItem(screenHeight:screenHeight,product: stadia),
-            TwoProductItemWidget(screenHeight:screenHeight,product1:'',product2:''),
+            TwoProductItemWidget(screenHeight:screenHeight,product1:pixelStand,product2:dayDreamView),
+            RedButton(buttonText:"View all"),
           ],
         )
       )
