@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './ui/product_listing_page/productListingPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.white,
       ),
-      home: Container()
+      home: productListingPage()
     );
   }
 }
