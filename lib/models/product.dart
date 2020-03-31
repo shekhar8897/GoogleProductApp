@@ -1,29 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Product{
-  
-  final String name;
-  final String description;
+class Product {
+  final String name, description, buttonText, imagePath, price, productInfo;
+
   Color backgroundColor;
-  final String buttonText;
-  final String imagePath;
-  final String price;
-  final String productInfo;
 
-  Product
-  (
-    {
-      this.name,
-      this.description,
-      this.backgroundColor,
-      this.buttonText,
-      this.imagePath,
-      this.price,
-      this.productInfo
-    }
-  );
-
- 
+  Product({this.name, this.description, this.backgroundColor, this.buttonText, this.imagePath, this.price, this.productInfo});
 }
 
 final Product pixelStand = Product(

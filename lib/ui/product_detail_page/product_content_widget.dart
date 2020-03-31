@@ -1,15 +1,14 @@
-import 'package:animation/models/product.dart';
-import 'package:animation/ui/product_detail_page/iconTitleWidget.dart';
-import 'package:animation/ui/product_listing_page/redButton.dart';
 import 'package:flutter/material.dart';
+import 'package:googleproductsapp/widgets/red_button.dart';
 
+import '../../models/product.dart';
+import 'icon_title_widget.dart';
 
-
-class ProductDetailContent extends StatelessWidget {
+class ProductContentWidget extends StatelessWidget {
   final Product product;
   final screenHeight;
 
-  const ProductDetailContent({Key key, this.product, this.screenHeight}) : super(key: key);
+  const ProductContentWidget({Key key, this.product, this.screenHeight}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -80,7 +79,7 @@ class ProductDetailContent extends StatelessWidget {
             height: 10,
           ),
           Text(
-            product.productInfo+product.productInfo+product.productInfo,
+            product.productInfo,
             style: TextStyle(
               color: Color(0xFF909090),
               fontWeight: FontWeight.w300,

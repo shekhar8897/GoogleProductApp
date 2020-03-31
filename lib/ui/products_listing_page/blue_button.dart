@@ -1,28 +1,29 @@
-import 'package:animation/models/product.dart';
 import 'package:flutter/material.dart';
 
-class BlueButton extends StatelessWidget {
-  //const BlueButton({Key key}) : super(key: key);
+import '../../models/product.dart';
 
+class BlueButton extends StatelessWidget {
   final Product product;
 
-  BlueButton({this.product});
+  const BlueButton({Key key, this.product}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return FlatButton(
-      onPressed: (){},
+      onPressed: () {},
       child: Text(
         product.buttonText,
-        style:TextStyle(
-          color:Colors.white,
+        style: TextStyle(
+          color: Colors.white,
           fontWeight: FontWeight.w600,
-          fontSize: 10  
+          fontSize: 10,
         ),
       ),
       color: Color(0xFF0000FF),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.all(Radius.circular(20))
+        borderRadius: BorderRadius.all(
+          Radius.circular(20),
+        ),
       ),
     );
   }
