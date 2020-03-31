@@ -1,3 +1,5 @@
+import 'package:animation/models/product.dart';
+import 'package:animation/ui/product_detail_page/productDetailPage.dart';
 import 'package:flutter/material.dart';
 import './ui/product_listing_page/productListingPage.dart';
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.white,
       ),
-      home: productListingPage()
+      home: ProductDetailPage(product: stadia,)
     );
   }
 }
