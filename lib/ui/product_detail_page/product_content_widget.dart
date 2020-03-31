@@ -1,5 +1,6 @@
+import 'package:animation/widgets/red_button.dart';
 import 'package:flutter/material.dart';
-import 'package:googleproductsapp/widgets/red_button.dart';
+
 
 import '../../models/product.dart';
 import 'icon_title_widget.dart';
@@ -79,7 +80,7 @@ class ProductContentWidget extends StatelessWidget {
             height: 10,
           ),
           Text(
-            product.productInfo,
+            product.productInfo+product.productInfo+product.productInfo,
             style: TextStyle(
               color: Color(0xFF909090),
               fontWeight: FontWeight.w300,

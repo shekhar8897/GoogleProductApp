@@ -1,5 +1,6 @@
+import 'package:animation/ui/products_listing_page/blue_button.dart';
 import 'package:flutter/material.dart';
-import 'package:googleproductsapp/ui/products_listing_page/blue_button.dart';
+
 import '../../models/product.dart';
 
 class RightImageProductItemWidget extends StatelessWidget {

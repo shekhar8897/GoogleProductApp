@@ -1,7 +1,8 @@
 import 'package:animation/models/product.dart';
 import 'package:animation/ui/product_detail_page/productDetailContent.dart';
+import 'package:animation/ui/products_listing_page/blue_button.dart';
 import 'package:flutter/material.dart';
-import 'package:animation/ui/product_listing_page/blue_button.dart';
+
 
 
 

@@ -1,6 +1,7 @@
+import 'package:animation/models/product.dart';
+import 'package:animation/widgets/red_button.dart';
 import 'package:flutter/material.dart';
-import 'package:googleproductsapp/models/product.dart';
-import 'package:googleproductsapp/widgets/red_button.dart';
+
 
 import 'left_image_product_item_widget.dart';
 import 'right_image_product_item_widget.dart';

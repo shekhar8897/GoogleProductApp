@@ -1,7 +1,8 @@
+import 'package:animation/fade_page_route.dart';
+import 'package:animation/ui/product_detail_page/product_detail_page.dart';
+import 'package:animation/ui/products_listing_page/blue_button.dart';
 import 'package:flutter/material.dart';
-import 'package:googleproductsapp/fade_page_route.dart';
-import 'package:googleproductsapp/ui/product_detail_page/product_detail_page.dart';
-import 'package:googleproductsapp/ui/products_listing_page/blue_button.dart';
+
 
 import '../../models/product.dart';
 
